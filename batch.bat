@@ -1,0 +1,1 @@
+mvn test -DsuiteXmlFile=F:\eclipse\PepperFry\testng.xml

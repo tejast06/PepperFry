@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Search Functionality]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Pepper Fry(failed)">
+    <parameter name="value" value="furniture"/>
+    <parameter name="url" value="https://www.pepperfry.com/"/>
+    <classes>
+      <class name="testcase.TestSearchField">
+        <methods>
+          <include name="validateSearchField" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcase.TestSearchField -->
+    </classes>
+  </test> <!-- Pepper Fry(failed) -->
+</suite> <!-- Failed suite [Test Search Functionality] -->

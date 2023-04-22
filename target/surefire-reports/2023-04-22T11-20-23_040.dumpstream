@@ -1,0 +1,5 @@
+# Created at 2023-04-22T11:20:24.154
+Boot Manifest-JAR contains absolute paths in classpath 'F:\eclipse\PepperFry\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

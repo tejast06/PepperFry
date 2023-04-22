@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Search Functionality">
+  <test thread-count="5" name="Pepper Fry">
+  
+  <parameter name = "url" value = "https://www.pepperfry.com/"/>
+  <parameter name = "value" value = "furniture"/>
+  
+  <classes>
+     <class name = "testcase.TestSearchField"/>
+  </classes>
+  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
